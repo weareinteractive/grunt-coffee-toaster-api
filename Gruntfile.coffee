@@ -74,7 +74,7 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks 'grunt-coffeelint'
   grunt.loadNpmTasks 'grunt-contrib-clean'
   grunt.loadNpmTasks "grunt-mocha-cov"
-  grunt.loadNpmTasks "grunt-bump"
+  grunt.loadNpmTasks "grunt-bumper"
 
   # Default task.
   grunt.registerTask 'default', ['coffeelint']
