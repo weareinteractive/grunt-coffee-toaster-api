@@ -1,0 +1,54 @@
+{
+  "name": "grunt-coffee-toaster-api",
+  "description": "Grunt for Coffee Toaster Api.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/weareinteractive/grunt-coffee-toaster-api",
+  "author": {
+    "name": "franklin",
+    "email": "franklin@weareinteractive.com",
+    "url": "http://wwww.weareinteractive.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/weareinteractive/grunt-coffee-toaster-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/weareinteractive/grunt-coffee-toaster-api/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/weareinteractive/grunt-coffee-toaster-api/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.coffee",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "chai": "~1.8.0",
+    "grunt-coffeelint": "0.0.7",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-mocha-cov": "0.0.7",
+    "coffee-script": "~1.6.3",
+    "grunt-bumper": "~1.0.0",
+    "grunt": "~0.4.1"
+  },
+  "dependencies": {
+    "coffee-toaster-api": "~1.0.0"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin",
+    "coffee-toaster-api",
+    "coffeescript",
+    "namespace",
+    "build",
+    "tool"
+  ]
+}
