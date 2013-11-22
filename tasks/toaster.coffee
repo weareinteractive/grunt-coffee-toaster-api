@@ -27,7 +27,7 @@ module.exports = (grunt) ->
       if grunt.util._.isString(value) then list[key] = grunt.template.process(value)
 
     # toast it
-    toast process.cwd(), options
+    toast(process.cwd(), options)
 
     return if grunt.task.current.errorCount then false else true
 
