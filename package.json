@@ -38,7 +38,7 @@
     "grunt": "~0.4.1"
   },
   "dependencies": {
-    "coffee-toaster-api": "git://github.com/weareinteractive/node-coffee-toaster-api.git"
+    "coffee-toaster-api": "~1.0.0"
   },
   "peerDependencies": {
     "grunt": "~0.4.1"
