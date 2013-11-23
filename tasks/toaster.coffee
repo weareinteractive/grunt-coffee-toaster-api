@@ -36,10 +36,6 @@ module.exports = (grunt) ->
   # -----------------------------------------------------------------------------------------------
 
   toast = (baseDir, options) ->
-    try
-      Toaster = require("coffee-toaster-api")
-      new Toaster(baseDir, options).build()
-      return true
-    catch error
-      grunt.log.error "Toaster error:\n" + error
-      return false
+    Toaster = require("coffee-toaster-api")
+    new Toaster(baseDir, options).build()
+    return true
