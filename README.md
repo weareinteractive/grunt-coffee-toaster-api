@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/weareinteractive/grunt-coffee-toaster-api.png?branch=master)](https://travis-ci.org/weareinteractive/grunt-coffee-toaster-api)
 [![Dependency Status](https://gemnasium.com/weareinteractive/grunt-coffee-toaster-api.png)](https://gemnasium.com/weareinteractive/grunt-coffee-toaster-api)
+[![NPM version](https://badge.fury.io/js/grunt-coffee-toaster-api.png)](http://badge.fury.io/js/grunt-coffee-toaster-api)
 
 > Grunt for [Coffee Toaster Api](https://github.com/weareinteractive/node-coffee-toaster-api).
 
