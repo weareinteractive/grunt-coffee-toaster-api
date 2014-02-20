@@ -1,7 +1,7 @@
 {
   "name": "grunt-coffee-toaster-api",
   "description": "Grunt for Coffee Toaster Api.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/weareinteractive/grunt-coffee-toaster-api",
   "author": {
     "name": "franklin",
@@ -33,7 +33,7 @@
     "grunt-coffeelint": "~0.0",
     "grunt-contrib-clean": "~0.5",
     "grunt-mocha-cov": "~0.2",
-    "coffee-script": "~1.6",
+    "coffee-script": "~1.7",
     "grunt-bumper": "~1.0",
     "grunt": "~0.4"
   },
