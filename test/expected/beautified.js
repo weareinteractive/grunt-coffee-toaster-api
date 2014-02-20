@@ -3,13 +3,13 @@ var fixtures = {
 };
 
 (function() {
-  var t, o = {}.hasOwnProperty, r = function(t, r) {
+  var t = {}.hasOwnProperty, o = function(o, r) {
     function n() {
-      this.constructor = t;
+      this.constructor = o;
     }
-    for (var e in r) o.call(r, e) && (t[e] = r[e]);
-    return n.prototype = r.prototype, t.prototype = new n(), t.__super__ = r.prototype, 
-    t;
+    for (var e in r) t.call(r, e) && (o[e] = r[e]);
+    return n.prototype = r.prototype, o.prototype = new n(), o.__super__ = r.prototype, 
+    o;
   };
   app.foo.B = function() {
     function t() {}
@@ -21,17 +21,17 @@ var fixtures = {
     return t.prototype.hello = function(t) {
       return "hello " + t;
     }, t;
-  }(), app.foo.A = function(o) {
-    function n() {
-      return t = n.__super__.constructor.apply(this, arguments);
+  }(), app.foo.A = function(t) {
+    function r() {
+      return r.__super__.constructor.apply(this, arguments);
     }
-    return r(n, o), n.prototype.bye = function(t) {
+    return o(r, t), r.prototype.bye = function(t) {
       var o;
       try {
-        return n.__super__.bye.apply(this, arguments).bye(t);
-      } catch (r) {
-        return o = r, "ups";
+        return r.__super__.bye.apply(this, arguments).bye(t);
+      } catch (n) {
+        return o = n, "ups";
       }
-    }, n;
+    }, r;
   }(app.foo.B);
 }).call(this);
