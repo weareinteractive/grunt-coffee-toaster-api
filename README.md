@@ -67,5 +67,3 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 ## License
 Copyright (c) We Are Interactive under the MIT license.
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/weareinteractive/grunt-coffee-toaster-api/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
