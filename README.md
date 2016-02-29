@@ -6,6 +6,11 @@
 
 > Grunt for [Coffee Toaster Api](https://github.com/weareinteractive/node-coffee-toaster-api).
 
+**DEPRICATION NOTICE:**
+
+> This project hasn't been maintained and updated for a while now. 
+> Please use as is and send PRs if you need changes.
+
 ## Getting Started
 
 This plugin requires Grunt `~0.4.1`
